@@ -17,4 +17,109 @@ body {
 .container {
   padding: 90px 15px;
   background-color: #f7feff;
+}
+.container .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.container .wrapper button {
+  margin: 7px; /* only for development */
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #222222;
+  background-color: transparent;
+  text-transform: capitalize;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+.container .wrapper button.example-1 {
+  border: 2px solid #32a852;
+}
+.container .wrapper button.example-1:hover {
+  background-color: #1d853a;
+  color: #ffffff;
+}
+.container .wrapper button.example-2 {
+  border: 2px dotted #ff9800;
+}
+.container .wrapper button.example-2:hover {
+  background-color: #ffb64a;
+  color: #ffffff;
+}
+.container .wrapper button.example-3 {
+  border: 2px dashed #be0000;
+}
+.container .wrapper button.example-3:hover {
+  background-color: #fc3838;
+  color: #ffffff;
+}
+.container .wrapper button.example-4 {
+  border: 4px double #5132fc;
+  padding: 8px 30px;
+}
+.container .wrapper button.example-4:hover {
+  background-color: #8b75ff;
+  color: #ffffff;
+}
+.container .wrapper button.example-5 {
+  border-width: 4px;
+  border-color: #95c200;
+  border-style: dotted dashed solid double;
+  padding: 8px 30px;
+}
+.container .wrapper button.example-5:hover {
+  background-color: #95c200;
+  color: #ffffff;
+}
+.container .wrapper button.example-6 {
+  border: 12px groove #0aff9d;
+  padding: 6px 30px;
+}
+.container .wrapper button.example-6:hover {
+  background-color: #0aff9d;
+}
+.container .wrapper button.example-7 {
+  border: 12px ridge #c9006f;
+  padding: 6px 30px;
+}
+.container .wrapper button.example-7:hover {
+  background-color: #c9006f;
+  color: #ffffff;
+}
+.container .wrapper button.example-8 {
+  border: 12px inset #b10ee3;
+  padding: 6px 30px;
+}
+.container .wrapper button.example-8:hover {
+  background-color: #b10ee3;
+  color: #ffffff;
+}
+.container .wrapper button.example-9 {
+  border: 12px outset #95c200;
+  padding: 6px 30px;
+}
+.container .wrapper button.example-9:hover {
+  background-color: #95c200;
+  color: #ffffff;
+}
+.container .wrapper button.example-10 {
+  padding: 6px 30px;
+  border-width: 10px 10px 10px 10px;
+  -o-border-image: linear-gradient(45deg, #ff0000 0%, #800080 100%);
+     border-image: linear-gradient(45deg, #ff0000 0%, #800080 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.container .wrapper button.example-10:hover {
+  background-image: linear-gradient(315deg, #fb0004 10%, #980068 74%);
+  color: #ffffff;
+}
+.container .wrapper button.example-11 {
+  background-color: #1d853a;
+  color: #ffffff;
+  border: 2px solid #105c25;
+}
+.container .wrapper button.example-11:hover {
+  background-color: #105c25;
 }/*# sourceMappingURL=style.css.map */
